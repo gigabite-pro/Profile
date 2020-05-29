@@ -5,29 +5,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link href = .\test.css type="text/css" rel="stylesheet"> 
-   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700;900&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
   </head>
-  <header>
-    <div class="bg">
-    </div>
-    <div class="container">
-      <div class="photo">
-      </div>
-      <div>
-        <a class="on_click" onclick="setTimeout(show, 100)"><img src="heart.png" height="50px" width="50px"></a>
-      </div>
-    </div>
-  </header>
   <body>
-    <h2 id="show_me">Love you too :)</h2>
-    <h1>Vaibhav Sharma</h1>
-    <div id="icons">
-      <ul>
-        <li id="insta"><a href="https://www.instagram.com/_.chintuuu._/" target="blank"><img src="insta.png"></a></li>
-        <li id="github"><a href="https://github.com/gigabite-pro" target="blank"><img src="github.png"></a></li>
-        <li id="mail"><a href="mailto:rajmachawal19@gmail.com"><img src="mail.png"></a></li>
-      </ul>
-    </div> 
+    <section class="top">
+      <section id ="container">
+        <div id ="photo"></div>
+        <a id ="on_click"><img src="heart.png" alt="like button"></a>
+      </section>
+    </section>
+    <section class="name">
+     <h1>Vaibhav Sharma</h1>
+    </section>
+    <section class="social">
+      <a href="https://www.instagram.com/_.chintuuu._/" target="blank"><img src="insta.png" alt="insta logo"></a>
+      <a href="https://github.com/gigabite-pro" target="blank"><img src="github.png" alt="github logo"></a>
+      <a href="mailto:rajmachawal19@gmail.com" target="blank"><img src="mail.png" alt="gmail icon"></a>
+    </section>
+    <section id ="hidden">
+     <h3>Love you too :)</h3>
+    </section>
   </body>
-  <script src = .\index.js></script>
+  <script src = ".\index.js"></script>
 </html>
