@@ -89,7 +89,7 @@ body{
 
  #hidden{
   width: 100%;
-  margin-top: 150px;
+  margin-top: 10%;
   display: flex;
   flex-direction: row;
   justify-content: center;
