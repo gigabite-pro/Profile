@@ -68,6 +68,7 @@ body{
   margin-top: 2.5%;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
   transition-duration: 0.5s;
 }
