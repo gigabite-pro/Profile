@@ -88,9 +88,11 @@ body{
  }
 
  #hidden{
-  position: absolute;
-  bottom: 15%;
-  left: 46%;
+  width: 100%;
+  margin-top: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   visibility: hidden;
  }
  
