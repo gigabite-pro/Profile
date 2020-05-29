@@ -1,0 +1,117 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-image: url("bg.jpg");
+  background-position: 20% 20%;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.top{
+  margin-top: 2%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#container{
+  height: 300px;
+  width: 300px;
+  display: grid;
+  grid-template-columns: repeat(7,1fr);
+  grid-template-rows: repeat(7,1fr);
+  border-radius: 50%;
+  transition-duration: 0.5s;
+}
+
+#on_click{
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  justify-self: center;
+  align-self: center;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  visibility: hidden;
+  transition-duration: 0.1s;
+  z-index: 1;
+}
+
+#on_click img{
+  height: 100%;
+  width: 100%;
+  
+}
+
+#photo{
+  grid-column-start: 1;
+  grid-column-end: 8;
+  grid-row-start: 1;
+  grid-row-end: 8;
+  background: url("EYES.jpg");
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+  transition-duration: 0.5s;
+}
+
+.name{
+  font-family: 'Roboto', sans-serif;
+  font-size: 400%;
+  margin-top: 2.5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  transition-duration: 0.5s;
+}
+
+.social{
+  margin-top: 2%;
+  width: 100%;
+  float: right;
+}
+
+
+ .social img{
+   width: 3%;
+   position: relative;
+   left: 42%;
+   margin-left: 2%;
+   transition-duration: 0.5s;
+ }
+
+ #hidden{
+  position: absolute;
+  bottom: 15%;
+  left: 46%;
+  visibility: hidden;
+ }
+ 
+ h3{
+   font-family: monospace;
+ }
+
+
+ .social img:hover{
+   width: 5%;
+ }
+
+ .name:hover{
+   letter-spacing: 10px;
+ }
+
+@media all and (max-width: 720px){
+   .name{
+     font-size: 200%;
+   }
+ }
+
+
+
